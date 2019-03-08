@@ -58,8 +58,12 @@
 .navlink {
   margin: 10px;
   text-decoration: none;
+  color: white;
+  font-weight: bold;
+  font-size: 1rem;
+
 }
 
-.smurfs h1 {
-  border: 1px solid red;
+.Smurfs {
+  margin-top: 80px;
 }
