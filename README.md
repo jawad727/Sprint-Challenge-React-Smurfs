@@ -29,9 +29,20 @@ In this challenge, you will create a Single Page Application complete with Clien
 Demonstrate your understanding of this Sprint's concepts by answering the following free-form questions. Edit this document to include your answers after each question. Make sure to leave a blank line above and below your answer so it is clear and easy to read by your project manager.
 
 - [ ] Explain the differences between `client-side routing` and `server-side routing`.
+
+There are pros and cons to both server and client side routing. Client side is faster when navigating inside he app but will take longer to initially load. In server side, every time you click a link within the app or website it will cause the whole page to refresh, which means unnessasary data is being requested, but, on the bright side search engines are usually optimized for server side routing.
+
 - [ ] Which HTTP methods can be mapped to the CRUD acronym that we use when interfacing with APIs/Servers.
+
+Post (Create), Get (Read), Put (Update), Delete (Delete)
+
 - [ ] Mention three tools we can use to make AJAX requests.
 
+.post
+.delete
+.get
+.then
+.catch
 
 ## Project Set Up
 
@@ -87,7 +98,7 @@ Add a Router to this application by using React Router.
 - [ ] You'll start by wrapping your `root` component in the `Router` component.
 - [ ] Declare your routes with `Route`.
 - [ ] Then make it so you can navigate to your routes using `Link`.
-- [ ] Create two `routes` in your `App` component, one at `'/'` for your `Smurfs` component,and one at `/smurf-form` for your form.
+- [ ] Create two `routes` in your `App` component, one at `'/'` for your `Smurfs` component,and one at  for your form.
 - [ ] Then in your `App` component, create a nav bar that will use `NavLink` to route to your different pages.
 
 ## STRETCH PROBLEMS
