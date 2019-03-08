@@ -1,13 +1,13 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import Router from 'react-router-dom'
+import {BrowserRouter as Router} from 'react-router-dom'
 import './index.css';
 import App from './App';
 
 ReactDOM.render(
     <div>
 <Router>
-<App />,
+    <App />
 </Router>
-    </div>,
-document.getElementById('root'));
+    </div>
+, document.getElementById('root'));

@@ -87,7 +87,7 @@ Add a Router to this application by using React Router.
 - [ ] You'll start by wrapping your `root` component in the `Router` component.
 - [ ] Declare your routes with `Route`.
 - [ ] Then make it so you can navigate to your routes using `Link`.
-- [ ] Create two `routes` in your `App` component, one at `'/'` for your `Smurfs` component,and one at `/smurf-form` for your form.
+- [ ] Create two `routes` in your `App` component, one at `'/'` for your `Smurfs` component,and one at  for your form.
 - [ ] Then in your `App` component, create a nav bar that will use `NavLink` to route to your different pages.
 
 ## STRETCH PROBLEMS
